@@ -1,0 +1,176 @@
+/**********HEADER************/
+.page-header {
+    margin: 0 20px 20px;
+}
+
+/******** LOGIN ********/
+.card{
+    width: 500px;
+    padding: 5px 0 5px;
+    margin: 100px auto 0;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card #instru{
+    margin-left: 10px;
+}
+
+.login-title{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.form-group-perso{
+    margin: 10px 10px;
+}
+
+.form-group-perso .form-control, .form-group-perso .btn{
+    border-radius: 0;
+}
+
+.form-group-perso .btn-primary {
+    color: #fff;
+    background-color: #00788c;
+    border-color: #00788c;
+}
+
+
+/******** FIN LOGIN ********/
+
+
+
+/*Sous Menu Plus*/
+.dropdown-submenu {
+    position:relative;
+}
+.dropdown-submenu>.dropdown-menu {
+    top:0;
+    /*left:100%;*/
+    right: 100%;
+    margin-top:-6px;
+    margin-left:-1px;
+    /*
+    -webkit-border-radius:0 6px 6px 6px;
+    -moz-border-radius:0 6px 6px 6px;
+    border-radius:0 6px 6px 6px;
+    */
+    -webkit-border-radius:6px 0 6px 6px;
+    -moz-border-radius:6px 0 6px 6px;
+    border-radius:6px 0 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+    display:block;
+}
+.dropdown-submenu>a:after {
+    display:block;
+    content:" ";
+    float:right;
+    width:0;
+    height:0;
+    border-color:transparent;
+    border-style:solid;
+    border-width:5px 0 5px 5px;
+    /*border-left-color:#333;*/
+    margin-top:5px;
+    margin-right:-10px;
+}
+.dropdown-submenu:hover>a:after {
+    /*border-left-color:#333;*/
+}
+.dropdown-submenu.pull-left {
+    float:none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left:-100%;
+    margin-left:10px;
+    -webkit-border-radius:6px 0 6px 6px;
+    -moz-border-radius:6px 0 6px 6px;
+    border-radius:6px 0 6px 6px;
+}
+
+/*Fin Sous Menu Plus*/
+
+
+
+
+
+/********DATATABLES********/
+.dataTable tbody tr .center{
+    text-align: center;
+}
+
+.dataTable tbody tr .right{
+    text-align: right;
+}
+
+.table > tbody > .desactiver{
+    background-color:#dcdcdc !important;
+}
+
+.table > tbody > .desactiver{
+    color:#a7a7a7;
+}
+
+.DTE_Field_InputControl img{
+	display: none;
+}
+
+
+
+.list-group-item {
+    padding: 6px 15px;
+}
+
+thead tr{
+    background-color: #00778f;
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #00778f;
+}
+
+.btn-primary {
+    background-color: #00778f;
+    border-color: #016276;
+}
+
+.btn-danger {
+    background-color: #cd2616;
+    border-color: #ae1f12;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    background-color: #00778f;
+    border-color: #016276;
+}
+
+.modal-header {
+    background-color: #00778f;
+    color: #fff;
+}
+
+.modal-header .close {
+    color: white;
+    opacity: 0.5;
+}
+
+.DTE_Form_Buttons > .btn-default{
+    background-color: #00778f;
+    border-color: #016276;
+    color: #fff;
+}
+
+#piece option{
+    padding: 5px 0;
+}
+
+/*readonly special*/
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    background-color: #eee;
+    opacity: 1;
+}
+
+input[type="radio"][disabled], input[type="checkbox"][disabled], input[type="radio"].disabled, input[type="checkbox"].disabled, fieldset[disabled] input[type="radio"], fieldset[disabled] input[type="checkbox"] {
+    cursor: not-allowed;
+}

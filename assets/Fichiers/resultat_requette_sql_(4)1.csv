@@ -1,0 +1,4 @@
+﻿"Grants for oper1@localhost"
+﻿"GRANT USAGE ON *.* TO 'oper1'@'localhost' IDENTIFIED BY PASSWORD '*69F6C605F233D7AE0B31F0159F6ABBB43856E565'"
+﻿"GRANT ALL PRIVILEGES ON `isocap`.* TO 'oper1'@'localhost'"
+﻿"GRANT ALL PRIVILEGES ON `evocap2`.* TO 'oper1'@'localhost'"
